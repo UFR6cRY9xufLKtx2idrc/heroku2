@@ -23,6 +23,13 @@
                     "maxEarlyData": 4096,
                     "path": "/$AUUID-vmess"
                 }
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
             }
         },
         {
@@ -43,6 +50,13 @@
                     "maxEarlyData": 4096,
                     "path": "/$AUUID-vless"
                 }
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
             }
         }
     ],
